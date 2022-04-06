@@ -49,16 +49,11 @@
       snap:
         name:
           - chromium
-          - discord
-          - firefox
-          - signal-desktop
           - spotify
-          - zoom-client
       become: true
     - name: Install snaps without confinement
       snap:
         name:
-          - android-studio
           - aws-cli
           - clion
           - code
@@ -69,10 +64,8 @@
           - intellij-idea-ultimate
           - kubectl
           - node
-          - pycharm-professional
           - rider
           - slack
-          - webstorm
         classic: true
       become: true
     - name: Install dotnet
