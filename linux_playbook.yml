@@ -33,6 +33,7 @@
         - meld
         - net-tools
         - nmap
+        - snapd
         - pipenv
         - pkg-config
         - python3
