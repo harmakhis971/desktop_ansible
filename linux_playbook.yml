@@ -76,7 +76,7 @@
         classic: true
         channel: 3.1/stable
     - name: Set shell to zsh
-      shell: chsh -s $(which zsh) stusmall
+      shell: chsh -s $(which zsh) harmakhis
       become: yes
     - name: Set zshrc
       copy:
